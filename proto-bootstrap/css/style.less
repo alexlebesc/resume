@@ -19,10 +19,18 @@ body {
 
 h1 {
   font-size: 23px;
+  font-weight: 200;
   color: #222222;
   border-bottom: 1px solid #09afad;
   padding-bottom:10px;
   text-align:center;
+}
+
+@media (min-width: 600px){
+  h1 {
+    text-align: left;
+  }
+
 }
 
 h2 {
@@ -30,6 +38,7 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -38,6 +47,7 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   padding-bottom : 5px;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -80,16 +90,33 @@ p {
 }
 
 .intro {
+
+  text-align:center;
+
   h2 {
     margin-top: 10px;
     font-size: 18px;
-    text-align:center;
     color: #555555;
+    font-weight: 200;
+    text-transform: capitalize;
   }
 
   p {
-    text-align:center;
     font-size: 16px;
+  }
+
+  @media (min-width: 600px){
+    text-align: left;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 992px){
+    h2 {
+      font-weight: 500;
+    }
   }
 }
 
@@ -141,6 +168,37 @@ footer {
 
 }
 
+.timeline-wrap {
+  background-color: #4cae4c;
+}
+
+.timeline-bg {
+  background: url("../img/timeline-bg.png") repeat-x center center fixed;
+}
+
+.timeline-margin {
+  height: 80px;
+}
+
+.timeline-progress {
+  background: url("../img/progress-bar.png") repeat-y center;
+  background-size: 400px 9px;
+}
+
+.timeline-title {
+  background: url("../img/progress-section-title3.png") repeat-y center;
+  background-size: 400px 500px;
+}
+
+.timeline-point {
+  background: url("../img/progress-point.png") center center;
+  background-size: 400px 500px;
+}
+
+.bg1 {
+  background: #fafafa;
+}
+
 @media (min-width: 321px){
   h1 {
     font-size: 28px;
@@ -154,7 +212,9 @@ footer {
 }
 
 @media (min-width: 992px){
-
+  .container {
+    width: 969px;
+  }
 }
 
 @media (min-width: 1200px){
