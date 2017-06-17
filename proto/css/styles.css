@@ -684,6 +684,19 @@ p {
     background: #ce5f5f
 }
 
+.progress > .progress-completed {
+    color: #888;
+}
+.progress-bar {
+    background: #09afad;
+}
+.progress-bar-2 {
+    background: #031634;
+}
+.progress-bar-3 {
+    background: #da222b;
+}
+
 .portfolio .line-content {
     height: 255px
 }
