@@ -87,7 +87,7 @@ p {
   margin-top: 10px;
   font-size: 18px;
   color: #555555;
-  font-weight: 200;
+  font-weight: 600;
   text-transform: capitalize;
 }
 .intro p {
@@ -103,7 +103,7 @@ p {
 }
 @media (min-width: 992px) {
   .intro h2 {
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 .contact-infos {
