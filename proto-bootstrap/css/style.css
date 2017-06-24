@@ -250,6 +250,9 @@ textarea.form-control {
 .job-description {
   margin-left: 40px;
 }
+.job-description ul {
+  margin-left: 40px;
+}
 .using {
   margin-top: 20px;
   padding-bottom: 10px;
@@ -257,7 +260,4 @@ textarea.form-control {
 .using li {
   list-style: none;
   display: inline;
-}
-.more {
-  text-decoration: none !important;
 }
