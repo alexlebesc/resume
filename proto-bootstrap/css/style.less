@@ -120,6 +120,7 @@ p {
 
   @media (min-width: 600px){
     text-align: left;
+    padding-top: 60px;
 
     h2 {
       font-size: 20px;
@@ -322,10 +323,31 @@ input.form-control, textarea.form-control {
   font-weight: 700;
 }
 
-@media (min-width: 321px){
+@media (min-width: 320px){
   h1 {
     font-size: 28px;
   }
+
+  h2, h3 {
+    margin-top: 0px;
+  }
+
+  .intro {
+    h2 {
+      padding-top:0px;
+    }
+  }
+
+  h2 {
+    font-size: 23px;
+    padding-top:20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    padding-top:10px;
+  }
+
 }
 
 @media (min-width: 600px){
@@ -368,6 +390,7 @@ input.form-control, textarea.form-control {
 
   li {
     list-style: none;
-    display: inline;
+    display: inline-block;
+    margin-bottom: 5px;
   }
 }
