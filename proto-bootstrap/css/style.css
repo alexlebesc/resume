@@ -91,7 +91,7 @@ p {
   text-transform: capitalize;
 }
 .intro p {
-  font-size: 16px;
+  font-size: 14px;
 }
 @media (min-width: 600px) {
   .intro {
@@ -114,7 +114,7 @@ p {
   border: none;
 }
 .contact-infos p {
-  font-size: 16px;
+  font-size: 14px;
 }
 .thankyou {
   text-align: center;
@@ -260,6 +260,7 @@ textarea.form-control {
 }
 .job-description {
   margin-left: 40px;
+  font-size: 14px;
 }
 .job-description ul {
   margin-left: 40px;
