@@ -99,6 +99,7 @@ p {
 }
 .intro p {
   font-size: 14px;
+  padding: 0px;
 }
 @media (min-width: 600px) {
   .intro {
@@ -220,6 +221,8 @@ footer p {
 }
 .skills-list {
   list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .progress-bar {
   background: #249991;
@@ -267,8 +270,10 @@ textarea.form-control {
     font-size: 28px;
   }
   h2,
-  h3 {
+  h3,
+  h4 {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
   .intro h2 {
     padding-top: 0px;
@@ -280,6 +285,12 @@ textarea.form-control {
   h3 {
     font-size: 18px;
     padding-top: 10px;
+  }
+  h4,
+  p {
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 @media (min-width: 425px) {
