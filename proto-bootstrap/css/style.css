@@ -57,8 +57,9 @@ h4 {
   font-weight: bold;
 }
 h4 .time-period {
+  color: #09afad;
   font-style: italic;
-  font-weight: 200;
+  font-weight: 700;
 }
 p {
   font-size: 13px;
