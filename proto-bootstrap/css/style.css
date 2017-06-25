@@ -127,10 +127,21 @@ p {
   font-weight: 200;
   font-style: italic;
 }
+.line-thankyou {
+  height: 60px;
+  margin-bottom: 200px;
+}
+.line-thankyou div {
+  height: 80px !important;
+}
+.spacing-height {
+  height: 60px;
+}
 footer {
   background-color: #da222b;
   color: #fff;
   text-align: center;
+  margin-bottom: 200px;
 }
 footer .quote {
   font-size: 22px;
