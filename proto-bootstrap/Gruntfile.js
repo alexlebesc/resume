@@ -14,7 +14,7 @@ module.exports = function (grunt)
         files: [
           {
             expand: true,
-            src: ['css/**', 'img/**', 'js/**', 'node_modules/**', '*.html'],
+            src: ['css/**', 'img/**', 'js/**', 'lib/**', '*.html'],
             dest: '<%= pkg.build %>/'
           }
         ]
