@@ -9,7 +9,11 @@
     "grunt": "^0.4.3",
     "grunt-contrib-copy": "^0.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-replace": "^1.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
