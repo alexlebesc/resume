@@ -87,6 +87,18 @@ module.exports = function (grunt) {
             }
         },
 
+        htmlmin: {
+            dist: {
+                options: {
+                    removeComments: true,
+                    collapseWhitespace: true
+                },
+                files: {
+                    '<%= pkg.build %>/index.html': '<%= pkg.build %>/index.html'
+                }
+            }
+        },
+
 
         clean: ['<%= pkg.build %>']
 
@@ -100,10 +112,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-replace');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
 
     // TASKS =========================/
 
     // Build task
-    grunt.registerTask('build', ['clean', 'copy:projectFiles', 'copy:libFiles','cssmin', 'uglify', 'replace:gather']);
+    grunt.registerTask('build', ['clean', 'copy:projectFiles', 'copy:libFiles','cssmin', 'uglify', 'replace:gather', 'htmlmin:dist']);
 };
