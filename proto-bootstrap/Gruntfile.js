@@ -50,6 +50,7 @@ module.exports = function (grunt) {
                     '<%= pkg.build %>/js/main.min.js': [
                         'lib/jquery.min.js',
                         'lib/bootstrap/js/bootstrap.js',
+                        'lib/ResizeSensor.js',
                         'js/main.js'
                     ]
                 }

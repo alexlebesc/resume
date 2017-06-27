@@ -2,31 +2,19 @@
  * Created by alex on 08/05/17.
  */
 
-var fullHeight = function() {
-    $('.full-height').each(function(){
-        var el = $(this);
-        var row = el.closest('.row');
 
-        el.height(row.height());
+$('.full-height-reference').each(function() {
+    var $el = $(this);
+    $el.siblings('.full-height').each(function() {
+        $(this).height($el.height());
     });
-};
 
-// media query change
-var WidthChange = function(mq) {
-    if (mq.matches) {
-        fullHeight();
-    }
-};
-
-// media query event handler
-if (matchMedia) {
-    var mq = window.matchMedia( "(min-width: 992px)" );
-    mq.addListener(WidthChange);
-    WidthChange(mq);
-} else {
-    fullHeight();
-}
-
+    new ResizeSensor($el, function() {
+        $el.siblings('.full-height').each(function() {
+           $(this).height($el.height());
+        });
+    });
+});
 
 
 
