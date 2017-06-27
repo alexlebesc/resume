@@ -10,7 +10,7 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        src: ['img/**', 'js/**'],
+                        src: ['img/**'],
                         dest: '<%= pkg.build %>/'
                     }
                 ]
@@ -44,6 +44,18 @@ module.exports = function (grunt) {
             }
         },
 
+        uglify: {
+            target: {
+                files: {
+                    '<%= pkg.build %>/js/main.min.js': [
+                        'lib/jquery.min.js',
+                        'lib/bootstrap/js/bootstrap.js',
+                        'js/main.js'
+                    ]
+                }
+            }
+        },
+
         replace: {
             gather: {
                 files: [
@@ -61,6 +73,14 @@ module.exports = function (grunt) {
                             replacement: function ( matchedString ) {
                                 return '<link rel="stylesheet" media="screen" href="css/main.css"/>';
                             }
+                        },
+
+                        {
+                            //Grab the <!--build-js-start--> and <!--build-js-end--> comments and everything in-between
+                            match: /\<\!\-\-build\-js\-start[\s\S]*build\-js\-end\-\-\>/,
+                            replacement: function ( matchedString ) {
+                                return '<script type="text/javascript" src="js/main.min.js"></script>';
+                            }
                         }
                     ]
                 }
@@ -77,6 +97,7 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-replace');
 
@@ -84,5 +105,5 @@ module.exports = function (grunt) {
     // TASKS =========================/
 
     // Build task
-    grunt.registerTask('build', ['clean', 'copy:projectFiles', 'copy:libFiles','cssmin', 'replace:gather']);
+    grunt.registerTask('build', ['clean', 'copy:projectFiles', 'copy:libFiles','cssmin', 'uglify', 'replace:gather']);
 };
