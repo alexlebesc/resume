@@ -6,7 +6,7 @@ body {
   font-size: 100%;
   color: #333;
   font-family: 'Open Sans', sans-serif;
-  background: #3b658a url(../img/bg-alex-2.jpg) repeat-x center top fixed;
+  background: #5b5b5b url(../img/bg-alex-2.jpg) repeat-x center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -307,6 +307,9 @@ textarea.form-control {
 @media (min-width: 992px) {
   .container {
     width: 780px;
+  }
+  .full-height-reference {
+    min-height: 70px;
   }
 }
 @media (min-width: 1024px) {

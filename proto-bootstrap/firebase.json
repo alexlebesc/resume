@@ -1,5 +1,35 @@
 {
   "hosting": {
-    "public": "public"
+    "public": "public",
+    "headers": [
+      {
+        "source" : "css/**",
+        "headers" : [ {
+          "key" : "Cache-Control",
+          "value" : "max-age=31556926"
+        } ]
+      },
+      {
+        "source" : "js/**",
+        "headers" : [ {
+          "key" : "Cache-Control",
+          "value" : "max-age=31556926"
+        } ]
+      },
+      {
+        "source" : "img/**",
+        "headers" : [ {
+          "key" : "Cache-Control",
+          "value" : "max-age=31556926"
+        } ]
+      },
+      {
+        "source" : "fonts/**",
+        "headers" : [ {
+          "key" : "Cache-Control",
+          "value" : "max-age=31556926"
+        } ]
+      }
+    ]
   }
 }
