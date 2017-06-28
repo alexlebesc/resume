@@ -10,7 +10,10 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        src: ['img/**'],
+                        src: [
+                            'img/**',
+                            'sitemap.xml'
+                        ],
                         dest: '<%= pkg.build %>/'
                     }
                 ]
