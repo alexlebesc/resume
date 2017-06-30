@@ -1,0 +1,33 @@
+<!--build-js-start-->
+        <script src="lib/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+        <script src="lib/ResizeSensor.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <!--build-js-end-->
+
+        <noscript id="deferred-styles">
+            <!--build-css-start-->
+            <link rel="stylesheet" href="lib/googleapis-OpenSans.css"  type="text/css">
+            <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+            <link rel="stylesheet" href="css/style.css">
+            <!--build-css-end-->
+        </noscript>
+        <script>
+            var loadDeferredStyles = function() {
+                var addStylesNode = document.getElementById("deferred-styles");
+                var replacement = document.createElement("div");
+                replacement.innerHTML = addStylesNode.textContent;
+                document.body.appendChild(replacement)
+                addStylesNode.parentElement.removeChild(addStylesNode);
+            };
+            var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+                    webkitRequestAnimationFrame || msRequestAnimationFrame;
+            if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+            else window.addEventListener('load', loadDeferredStyles);
+        </script>
+
+
+
+    </body>
+</html>
