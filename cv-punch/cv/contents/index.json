@@ -1,4 +1,24 @@
 {
 	"title": "Alex Le Bescond",
-	"subtitle": "Développeur Web Full Stack"
+	"subtitle": "Développeur Web Full Stack",
+	"intro": "Passionné des technologies Web, je travaille en tant que développeur depuis plus de 10 ans. J'ai bâti mon expérience au Royaume-Uni, en Australie et en France. Je connais les problématiques liées au développement front end, back end et aux infrastructures du Web.",
+	"profile" : {
+		"title" : "Profil",
+		"name" : {
+			"label" : "Nom",
+			"value" : "Alex Le Bescond"
+		},
+		"birth" : {
+			"label" : "Naissance",
+			"date" : "1er Mai 1984",
+			"place" : "Lannion, Bretagne, France"
+		},
+		"email" : {
+			"label" : "Email",
+			"value" : "alex.lebescond@gmail.com"
+		},
+		"findme" : {
+			"label" : "Trouvez moi sur"
+		}
+	}
 }

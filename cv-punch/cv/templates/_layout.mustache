@@ -14,7 +14,7 @@
                 <div class="col-md-8">
                     <h1><span class="color bold" itemprop="name">{{{title}}}</span></h1>
                     <h2 itemprop="jobTitle">{{{subtitle}}}</h2>
-                    <p itemprop="description">Passionné des technologies Web, je travaille en tant que développeur depuis plus de 10 ans. J'ai bâti mon expérience au Royaume-Uni, en Australie et en France. Je connais les problématiques liées au développement front end, back end et aux infrastructures du Web.</p>
+                    <p itemprop="description">{{{intro}}}</p>
                 </div>
             </section>
             <div class="timeline-wrap">
@@ -26,42 +26,43 @@
                         </div>
                     </div>
                     <section class="timeline-section">
+                        {{#profile}}
                         <div class="row">
                             <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
                             <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-title"></div>
                             <div class="col-md-9 bg1 full-height-reference">
-                                <h2>Profil</h2>
+                                <h2>{{{title}}}</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
                             <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
                             <div class="col-md-9 bg1 full-height-reference">
-                                <h3>NOM</h3>
-                                <p itemprop="name">Alex Le Bescond</p>
+                                <h3>{{{name.label}}}</h3>
+                                <p itemprop="name">{{{name.value}}}</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
                             <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
                             <div class="col-md-9 bg1 full-height-reference">
-                                <h3>NAISSANCE</h3>
-                                <p><span itemprop="birthDate">1er Mai 1984</span> - <span itemprop="birthPlace">Lannion, Bretagne, France</span></p>
+                                <h3>{{{birth.label}}}</h3>
+                                <p><span itemprop="birthDate">{{{birth.date}}}</span> - <span itemprop="birthPlace">{{{birth.place}}}</span></p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
                             <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
                             <div class="col-md-9 bg1 full-height-reference">
-                                <h3>EMAIL</h3>
-                                <p itemprop="email">alex.lebescond@gmail.com</p>
+                                <h3>{{{email.label}}}</h3>
+                                <p itemprop="email">{{{email.value}}}</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
                             <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
                             <div class="col-md-9 bg1 full-height-reference">
-                                <h3>TROUVEZ MOI SUR</h3>
+                                <h3>{{{findme.label}}}</h3>
                                 <p>
                                     <a href="https://fr.linkedin.com/in/alex-le-bescond-4510314" class="btn btn-default" target="_blank"><i class="fa fa-linkedin"></i></a>
                                     <a href="https://github.com/alexlebesc" class="btn btn-default" target="_blank"><i class="fa fa-github"></i></a>
@@ -74,6 +75,7 @@
                             <div class="col-md-9 bg1 spacing-height full-height-reference">
                             </div>
                         </div>
+                        {{/profile}}
                     </section>
                     <section class="timeline-section">
                         <div class="row">
