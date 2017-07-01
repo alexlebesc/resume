@@ -20,5 +20,411 @@
 		"findme" : {
 			"label" : "Trouvez moi sur"
 		}
-	}
+	},
+	"experience" : {
+		"title" : "Experience",
+        "experiences" : [
+          {
+            "company" : "HELIOPSIS",
+            "jobTitle" : "Lead Développeur",
+			"start": "2015",
+			"end": "2017",
+            "location": "Lyon, France",
+            "jobDescription": "<ul class=\"job-description\"> <li>Responsable d'une équipe de 4 développeurs front end et back end.<\/li> <li>Développement de sites Web avec eZpublish et Symfony.<\/li> <li>Développement d'applications mobiles iOS et android avec angular et ionic<\/li> <li>Création des environnements de serveur de pré-production, de production et déploiement des sites développés par l'agence.<\/li> <li>En charge de la lecture des cahiers des charges et de proposer des solutions techniques répondant aux besoins des clients.<\/li> <li>Estimations des temps de développements.<\/li> <li>Gestion et plannification des développements en étroite collaboration avec les chefs de projets.<\/li> <li>Responsable des recrutements des développeurs.<\/li> <li>Responsable de la montée en compétence et du partage de connaissances des membres de l'équipe de développement.<\/li> <li>Mise en place de méthodes permettant un travail collaboratif et agile sur les différents projets de l'agence (inspiration SCRUM et Kanban)<\/li> <li>Mise en place de procédures améliorant la qualité du code écrit par les développeurs. Gain en productivité sur les phases de debug et sur les évolutions des produits.<\/li> <\/ul>",
+            "using" : [
+              {"label" : "PHP"},
+              {"label" : "Symfony"},
+              {"label" : "eZpublish"},
+              {"label" : "Wordpress"},
+              {"label" : "MySQL"},
+              {"label" : "Angular.js"},
+              {"label" : "Angular2"},
+              {"label" : "ionic"},
+              {"label" : "Docker"}
+            ]
+          },
+          {
+            "company" : "JUNKEE MEDIA",
+            "jobTitle" : "Développeur Web Full Stack",
+            "start": "2012",
+            "end": "2015",
+            "location": "Sydney, Australie",
+            "jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Responsable du développement et des innovations technologiques de tous les magazines en ligne de Junkee Media : <ul> <li><a href=\"http://inthemix.junkee.com\/\" target=\"_blank\">www.inthemix.com.au (686 000 visites \/ mois en 2015)<\/a><\/li> <li><a href=\"http://fasterlouder.junkee.com\/\" target=\"_blank\">www.fasterlouder.com.au (531 000 visites \/ mois en 2015)<\/a><\/li> <li>www.samesame.com.au (100 000 visites \/ mois en 2015)<\/li> <li><a href=\"http://junkee.com\/\" target=\"_blank\">junkee.com (1 537 000 visites \/ mois en 2015)<\/a><\/li> <li><a href=\"https://awol.junkee.com\/\" target=\"_blank\">awol.com.au (136 000 visites \/ mois en 2015)<\/a><\/li> <\/ul> <\/li> <li>Maintenance de la plateforme de publication “CORE”, CMS développé à Junkee Media utilisant MVC.<\/li> <li>Responsable des performances et de l’optimisation de l’infrastructure des sites en production.<\/li> <li>Amélioration de l’environnement et des méthodes de développement de l’équipe.<\/li> <\/ul>",
+          "using" : [
+              {"label" : "PHP"},
+              {"label" : "Symfony"},
+              {"label" : "Wordpress"},
+              {"label" : "MySQL"},
+              {"label" : "Require.js"},
+              {"label" : "Angular.js"},
+              {"label" : "Grunt"},
+              {"label" : "Bower"},
+              {"label" : "SASS"},
+              {"label" : "Vagrant"},
+              {"label" : "Chef"},
+              {"label" : "Vagrant"},
+              {"label" : "Chef"},
+              {"label" : "Varnish"},
+              {"label" : "New Relic"}
+            ]
+          },
+          {
+            "company" : "VIOCORP",
+            "jobTitle" : "Développeur PHP Senior",
+            "start": "2011",
+            "end": "2012",
+            "location": "Sydney, Australie",
+            "jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Développement de nouvelles fonctionnalités, amélioration et optimisation de VIOMEDIA, CMS dédié à la publication de vidéos en ligne : <ul> <li>Création d’outils de reporting et d’analyse pour VIOMEDIA<\/li> <li>Optimisation de requêtes SQL (MSSQL)<\/li> <li>Utilisation des méthodes de développement Domain Driven Design (DDD) et Command-Query Responsibility Segregation (CQRS) pour la réingénérie logicielle (refactoring) de<\/li> VIOMEDIA <li>Utilisation de Backbone.js pour les interfaces utilisateurs du CMS.<\/li> <\/ul> <\/li> <\/ul>",
+            "using" : [
+              {"label" : "PHP"},
+              {"label" : "MSSQL"},
+              {"label" : "Symfony"},
+              {"label" : "jQuery"},
+              {"label" : "Backbone.js"},
+              {"label" : "less"}
+            ]
+          },
+          {
+            "company" : "SOLUTION 4",
+            "jobTitle" : "Développeur PHP",
+            "start": "2009",
+            "end": "2011",
+            "location": "Sydney, Australie",
+            "jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Développement de nouvelles fonctionnalités et amélioration de SENRO, un progiciel de gestion pour entreprises spécialisées dans les assurances et crédits : <ul> <li>Développement d’un gestionnaire de futurs clients<\/li> <li>Développement d’un calendrier<\/li> <li>Développement d’un système d’annotation<\/li> <li>Développement d’un gestionnaire de tâches.<\/li> <\/ul> <\/li> <\/ul>",
+            "using" : [
+              {"label" : "PHP"},
+              {"label" : "MySql"},
+              {"label" : "Zend Framework"},
+              {"label" : "jQuery"},
+              {"label" : "HTML"},
+              {"label" : "CSS"}
+            ]
+          },
+          {
+            "company": "QUANTHOUSE",
+            "jobTitle": "Développeur Web",
+            "start": "2007",
+            "end": "2009",
+            "location": "Paris, France",
+            "jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Développement de composants Web intégrés à QuantFactory, un IDE pour traders.<\/li> <li>Design, développement et déploiement d’outils Intranet.<\/li> <li>Développement d’un portail Web pour les clients de Quanthouse.<\/li> <li>Développement du site Web de Quanthouse.<\/li> <li>Migration de données d’une plateforme de gestion de services d’assistance à OTRS (Open-source Ticket Request System).<\/li> <\/ul>",
+            "using": [
+              {
+                "label": "PHP"
+              },
+              {
+                "label": "Ruby"
+              },
+              {
+                "label": "MySql"
+              },
+              {
+                "label": "Xslt"
+              },
+              {
+                "label": "SOAP"
+              },
+              {
+                "label": "Drupal"
+              }
+            ]
+          },
+          {
+            "company": "CSIRO",
+            "jobTitle": "Développeur Web",
+            "start": "2007",
+            "end": "",
+            "location": "Brisbane, Australie",
+            "jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Développement d’une interface Web permettant de contrôler des systèmes embarqués : <ul> <li>Configurer et lancer des missions.<\/li> <li>Visualisation des messages de log.<\/li> <\/ul> <\/li> <\/ul>",
+            "using": [
+              {
+                "label": "PHP"
+              },
+              {
+                "label": "HTML"
+              },
+              {
+                "label": "CSS"
+              },
+              {
+                "label": "Javascript"
+              },
+              {
+                "label": "C"
+              }
+            ]
+          },
+          {
+            "company": "ALTCOM",
+            "jobTitle": "Développeur Web",
+            "start": "2005",
+            "end": "2006",
+            "location": "Penzance, Royaume Uni",
+            "jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Création d’une plateforme de vente de photos en ligne.<\/li> <\/ul>",
+            "using": [
+              {
+                "label": "PHP"
+              },
+              {
+                "label": "MySql"
+              },
+              {
+                "label": "HTML"
+              },
+              {
+                "label": "CSS"
+              },
+              {
+                "label": "Javascript"
+              },
+              {
+                "label": "OSCommerce"
+              }
+            ]
+          },
+          {
+            "company": "IFREMER",
+            "jobTitle": "Développeur Web",
+            "start": "2004",
+            "end": "",
+            "location": "Brest, France",
+            "jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Développement d’une application Web permettant de contrôler les droits d’accès sur les sites Intranet de l’IFREMER.<\/li> <\/ul>",
+            "using": [
+              {
+                "label": "Perl"
+              },
+              {
+                "label": "HTML"
+              },
+              {
+                "label": "CSS"
+              },
+              {
+                "label": "LDAP"
+              }
+            ]
+          }
+        ]
+	},
+
+    "education" : {
+      "title": "Formation",
+      "educations" : [
+        {
+          "degree": "MASTER PROFESSIONNEL, SPÉCIALITÉ INFORMATIQUE",
+          "school": "IUP Vannes",
+          "country": "France",
+          "start": "2005",
+          "end": "2007"
+        },
+        {
+          "degree": "LICENCE INFORMATIQUE",
+          "school": "IUP Vannes",
+          "country": "France",
+          "start": "2004",
+          "end": "2005"
+        },
+        {
+          "degree": "D.U.T. GÉNIE DES TÉLÉCOMMUNICATIONS ET RÉSEAUX",
+          "school": "IUT Lannion",
+          "country": "France",
+          "start": "2002",
+          "end": "2004"
+        }
+      ]
+    },
+
+    "skills" : {
+      "title" : "Compétences",
+      "groups" : [
+        {
+          "title": "PHP",
+          "progress-list": true,
+          "list": [
+            {
+              "label": "PHP",
+              "percent": "90",
+              "class": ""
+            },
+            {
+              "label": "Symfony",
+              "percent": "75",
+              "class": ""
+            },
+            {
+              "label": "Silex",
+              "percent": "75",
+              "class": ""
+            },
+            {
+              "label": "Zend Framework",
+              "percent": "50",
+              "class": ""
+            },
+            {
+              "label": "Wordpress",
+              "percent": "75",
+              "class": ""
+            },
+            {
+              "label": "Drupal",
+              "percent": "50",
+              "class": ""
+            },
+            {
+              "label": "OSCommerce",
+              "percent": "75",
+              "class": ""
+            }
+          ]
+        },
+        {
+          "title": "JAVASCRIPT - HTML - CSS",
+          "progress-list": true,
+          "list": [
+            {
+              "label": "HTML / CSS",
+              "percent": "80",
+              "class": "progress-bar-2"
+            },
+            {
+              "label": "Javascript",
+              "percent": "80",
+              "class": "progress-bar-2"
+            },
+            {
+              "label": "jQuery",
+              "percent": "75",
+              "class": "progress-bar-2"
+            },
+            {
+              "label": "Backbone.js",
+              "percent": "50",
+              "class": "progress-bar-2"
+            },
+            {
+              "label": "Require.js",
+              "percent": "60",
+              "class": "progress-bar-2"
+            },
+            {
+              "label": "Angular.js",
+              "percent": "50",
+              "class": "progress-bar-2"
+            },
+            {
+              "label": "Angular2",
+              "percent": "50",
+              "class": "progress-bar-2"
+            },
+            {
+              "label": "ionic",
+              "percent": "50",
+              "class": "progress-bar-2"
+            }
+          ]
+        },
+        {
+          "title": "BASE DE DONNÉES",
+          "progress-list": true,
+          "list": [
+            {
+              "label": "MySql",
+              "percent": "75",
+              "class": "progress-bar-3"
+            },
+            {
+              "label": "MS SQL",
+              "percent": "50",
+              "class": "progress-bar-3"
+            },
+            {
+              "label": "MongoDB",
+              "percent": "25",
+              "class": "progress-bar-3"
+            }
+          ]
+        },
+        {
+          "title": "OUTILS",
+          "progress-list": false,
+          "list": [
+            {
+              "label": "Linux"
+            },
+            {
+              "label": "Apache"
+
+            },
+            {
+              "label": "PHP"
+            },
+            {
+              "label": "MySQL"
+            },
+            {
+              "label": "Docker"
+            },
+            {
+              "label": "Composer"
+            },
+            {
+              "label": "Phpstorm"
+            },
+            {
+              "label": "Vim"
+            },
+            {
+              "label": "Git"
+            },
+            {
+              "label": "Github"
+            },
+            {
+              "label": "New Relic"
+            },
+            {
+              "label": "Varnish"
+            },
+            {
+              "label": "Mina"
+            }
+          ]
+        }
+      ]
+    },
+
+    "interests" : {
+      "title" : "LOISIRS",
+      "list" : [
+      {
+        "title": "PLANCHE À VOILE",
+        "content": "Adepte des sports nautiques, je fais de la planche à voile depuis mes années lycée."
+      },
+      {
+        "title": "SURF",
+        "content": "J'ai remplacé mes planches à voile contre des planches de surf en Australie."
+      },
+      {
+        "title": "FOOTBALL",
+        "content": "Avant d'adopter un style surfeur, j'ai joué plusieurs années au football. Je ne rate jamais une opportunité de rechausser les crampons. Je suis un fervent supporter d'En Avant Guingamp."
+      },
+      {
+        "title": "TREKKING",
+        "content": "J'ai découvert les longues randonnées en Australie. Le trekking est devenu pour moi un moyen de voyager et de s'évader complètement en pleine nature."
+      },
+      {
+        "title": "JARDINAGE",
+        "content": "Le jardinage est une nouvelle activité. J'expérimente les pratiques permaculturelles sur mon petit balcon."
+      },
+      {
+        "title": "MUSIQUE",
+        "content": "J'ai appris la musique dans mes années collège. Je sais jouer quelques morceaux d'accordéon, de piano, de guitare, de guitare basse, d'harmonica."
+      }
+    ]
+    },
+
+    "quote" : {
+      "content":"\"Vous pouvez y arriver si vous y croyez.\"",
+      "author": "Napoleon Hill"
+    }
 }
