@@ -30,7 +30,7 @@
 				"start": "2015",
 				"end": "2017",
 				"location": "Lyon, France",
-				"jobDescription": "<ul class=\"job-description\"> <li>In charge of managing a team of 4 developers front end and back end.<\/li> <li>Developement of Websites with eZpublish and symfony.<\/li> <li>Development of mobile applications with Angular and Ionic.<\/li> <li>Installation of staging and production environment on hosted servers and deployment of the web applications developped by the developer team.<\/li> <li>In charge of reading clients requirements specifications and to give technical solutions.<\/li> <li>Estimation of development time.<\/li> <li>Management and planning of the development cycle in close collaboration with the project managers.<\/li> <li>In charge of the recruitment process for te developer team.<\/li> <li>In charge of improving the skills level of the developer team and sharing the technical information among the members of the team.<\/li> <li>Improvement of the development methods to work in a team environment (SCRUM and Kanban inspirations).<\/li> <li>Adding processes to improve code quality, and developer productivity on debug phases and new features development.<\/li> <\/ul>",
+				"jobDescription": "<ul class=\"job-description\"> <li>In charge of managing a team of 4 front end and back end developers.<\/li> <li>Developement of websites with eZpublish and symfony.<\/li> <li>Development of mobile applications with Angular and Ionic.<\/li> <li>Setup of staging and production environment on hosted servers and deployment of web applications developped by the team.<\/li> <li>In charge of reading clients requirements specifications and providing technical solutions.<\/li> <li>Estimation of development time.<\/li> <li>Management and planning of the development process in close collaboration with the project managers.<\/li> <li>In charge of the recruitment process for the development team.<\/li> <li>In charge of improving the skills level of the development team and sharing the technical information among the members of the team.<\/li> <li>Improvement of the development methods to work in a team environment (SCRUM and Kanban inspirations).<\/li> <li>Adding processes to improve code quality, and developer productivity on debug phases and new features development.<\/li> <\/ul>",
 				"using" : [
 					{"label" : "PHP"},
 					{"label" : "Symfony"},
@@ -45,11 +45,11 @@
 			},
 			{
 				"company" : "JUNKEE MEDIA",
-				"jobTitle" : "Développeur Web Full Stack",
+				"jobTitle" : "Web full stack developer",
 				"start": "2012",
 				"end": "2015",
-				"location": "Sydney, Australie",
-				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>In charge of the development and innovation of all the Junkee Media online publications:<ul> <li><a href=\"http://inthemix.junkee.com\/\" target=\"_blank\">www.inthemix.com.au (686000 visitors\/month in 2015)<\/a><\/li> <li><a href=\"http://fasterlouder.junkee.com\/\" target=\"_blank\">www.fasterlouder.com.au (531000 visitors\/month in 2015)<\/a><\/li> <li>www.samesame.com.au (100000 visitors\/month in 2015)<\/li> <li><a href=\"http://junkee.com\/\" target=\"_blank\">junkee.com (1537000 visitors\/month in 2015)<\/a><\/li> <li><a href=\"https://awol.junkee.com\/\" target=\"_blank\">awol.com.au (136000 visitors\/month in 2015)<\/a><\/li> <\/ul> <\/li> <li>Maintenance of the company bespoke publishing platform \"CORE\".<\/li> <li>In charge of the optimisation and performance of the production Websites infrastructure.<\/li> <li>Improvement of the team development environment and methodologies.<\/li> <\/ul>",
+				"location": "Sydney, Australia",
+				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>In charge of the development and innovation of all the Junkee Media online publications:<ul> <li><a href=\"http://inthemix.junkee.com\/\" target=\"_blank\">www.inthemix.com.au (686000 visitors\/month in 2015)<\/a><\/li> <li><a href=\"http://fasterlouder.junkee.com\/\" target=\"_blank\">www.fasterlouder.com.au (531000 visitors\/month in 2015)<\/a><\/li> <li>www.samesame.com.au (100000 visitors\/month in 2015)<\/li> <li><a href=\"http://junkee.com\/\" target=\"_blank\">junkee.com (1537000 visitors\/month in 2015)<\/a><\/li> <li><a href=\"https://awol.junkee.com\/\" target=\"_blank\">awol.com.au (136000 visitors\/month in 2015)<\/a><\/li> <\/ul> <\/li> <li>Maintenance of the company bespoke publishing platform \"CORE\".<\/li> <li>In charge of the optimisation and performance of the production websites infrastructure.<\/li> <li>Improvement of the team development environment and methodologies.<\/li> <\/ul>",
 				"using" : [
 					{"label" : "PHP"},
 					{"label" : "Symfony"},
@@ -74,7 +74,7 @@
 				"start": "2011",
 				"end": "2012",
 				"location": "Sydney, Australia",
-				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Development of new features and improvement of VIOMEDIA, a content management system (CMS) for video portals:<ul> <li>Development of a reporting section for the CMS.<\/li> <li>Development of scripts to collect and store data for the reporting system.<\/li> <li>Developement of dynamic user interface to display charts and graphs.<\/li> <li>Database query optimization (MSSQL)<\/li><li>Build q nex version of the CMS using Domain Driven Design (DDD) and Command-Query Responsibility Segregation (CQRS) patterns.<\/li><li>Development of user interfaces using backbone.js as javascript framework.<\/li> <\/ul> <\/li> <\/ul>",
+				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Development of new features and improvement of VIOMEDIA, a content management system (CMS) for video portals:<ul> <li>Development of a reporting section for the CMS.<\/li> <li>Development of scripts to collect and store data for the reporting system.<\/li> <li>Developement of dynamic user interface to display charts and graphs.<\/li> <li>Database query optimization (MSSQL)<\/li><li>Build a new version of the CMS using Domain Driven Design (DDD) and Command-Query Responsibility Segregation (CQRS) patterns.<\/li><li>Development of user interfaces using backbone.js as javascript framework.<\/li> <\/ul> <\/li> <\/ul>",
 				"using" : [
 					{"label" : "PHP"},
 					{"label" : "MSSQL"},
@@ -106,7 +106,7 @@
 				"start": "2007",
 				"end": "2009",
 				"location": "Paris, France",
-				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Development of a Web front-end application connected to an end-to-end systematic trading system.<\/li> <li>Development of a Web component integrated into QuantFactory, an IDE for traders.<\/li> <li>Design, development and deployment of Intranet tools.<\/li> <li>Development of the Quanthouse Website.<\/li> <li>Data migration from a ticketing system to another ticketing system (OTRS).<\/li> <\/ul>",
+				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Development of a Web front-end application connected to an end-to-end systematic trading system.<\/li> <li>Development of a Web component integrated into QuantFactory, an IDE for traders.<\/li> <li>Design, development and deployment of Intranet tools.<\/li> <li>Development of the Quanthouse website.<\/li> <li>Data migration from a ticketing system to another ticketing system (OTRS).<\/li> <\/ul>",
 				"using": [
 					{
 						"label": "PHP"
@@ -187,7 +187,7 @@
 				"start": "2004",
 				"end": "",
 				"location": "Brest, France",
-				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Development of a Web application to manage user access permissions to the IFREMER private Websites.<\/li> <\/ul>",
+				"jobDescription": "<ul class=\"job-description\" itemprop=\"description\"> <li>Development of a Web application to manage user access permissions to the IFREMER private websites.<\/li> <\/ul>",
 				"using": [
 					{
 						"label": "Perl"

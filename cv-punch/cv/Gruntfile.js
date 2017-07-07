@@ -13,7 +13,8 @@ module.exports = function (grunt) {
                         cwd: '<%= pkg.src %>',
                         src: [
                             'img/**',
-                            'sitemap.xml'
+                            'sitemap.xml',
+                            'robots.txt'
                         ],
                         dest: '<%= pkg.build %>/'
                     }
