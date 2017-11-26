@@ -1,0 +1,53 @@
+<!--SKILLS-->
+<section class="timeline-section">
+    {{#skills}}
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-title"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h2>{{title}}</h2>
+            </div>
+        </div>
+        {{#groups}}
+            <div class="row">
+                <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
+                <div class="col-md-9 bg1 full-height-reference">
+                    <h3>{{title}}</h3>
+
+                    {{#progress-list}}
+                        <ul class="skills-list">
+                            {{#list}}
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar {{class}}" data-percent="{{percent}}%" role="progressbar" style="width: {{percent}}%;">
+                                            <span class="sr-only">{{percent}}% Complete</span>
+                                        </div>
+                                        <span class="progress-type">{{label}}</span>
+                                        <span class="progress-completed">{{percent}}%</span>
+                                    </div>
+                                </li>
+                            {{/list}}
+                        </ul>
+                    {{/progress-list}}
+
+                    {{^progress-list}}
+                        <ul class="using">
+                            {{#list}}
+                                <li><span class="label label-default">{{label}}</span></li>
+                            {{/list}}
+                        </ul>
+                    {{/progress-list}}
+                </div>
+            </div>
+        {{/groups}}
+
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+            <div class="col-md-9 bg1 spacing-height full-height-reference">
+            </div>
+        </div>
+
+    {{/skills}}
+</section>

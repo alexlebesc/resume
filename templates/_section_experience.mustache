@@ -1,0 +1,38 @@
+<!--EXPERIENCE-->
+<section class="timeline-section">
+    {{#experience}}
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-title"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h2>{{title}}</h2>
+            </div>
+        </div>
+        {{#experiences}}
+            <div class="row">
+                <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work"></div>
+                <div class="col-md-9 bg1 full-height-reference" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+                    <h3 itemprop="name">{{company}}</h3>
+                    <h4>
+                        <span>{{jobTitle}}</span> - <span class="time-period" ><span >{{start}}</span> - <span>{{end}}</span></span> - <span class="location">{{location}}</span>
+                    </h4>
+                    <div>
+                        {{{jobDescription}}}
+                        <ul class="using">
+                            {{#using}}
+                                <li><span class="label label-default">{{label}}</span></li>
+                            {{/using}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {{/experiences}}
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+            <div class="col-md-9 bg1 spacing-height full-height-reference">
+            </div>
+        </div>
+    {{/experience}}
+</section>

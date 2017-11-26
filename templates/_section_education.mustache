@@ -1,0 +1,27 @@
+<!--EDUCATION-->
+<section class="timeline-section">
+    {{#education}}
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-title"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h2>{{title}}</h2>
+            </div>
+        </div>
+
+        {{#educations}}
+            <div class="row">
+                <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-education"></div>
+                <div class="col-md-9 bg1 full-height-reference" itemscope itemtype="http://schema.org/EducationalOrganization">
+                    <h3>{{degree}}</h3>
+                    <h4>
+                        <span itemprop="name">{{school}}</span>, {{country}} - <span class="time-period">{{start}} - {{end}}</span>
+                    </h4>
+                    <br />
+                </div>
+            </div>
+        {{/educations}}
+
+    {{/education}}
+</section>

@@ -1,0 +1,53 @@
+<!--PROFILE-->
+<section class="timeline-section">
+    {{#profile}}
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-title"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h2>{{{title}}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h3>{{{name.label}}}</h3>
+                <p itemprop="name">{{{name.value}}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h3>{{{birth.label}}}</h3>
+                <p><span itemprop="birthDate">{{{birth.date}}}</span> - <span itemprop="birthPlace">{{{birth.place}}}</span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h3>{{{email.label}}}</h3>
+                <p itemprop="email">{{{email.value}}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h3>{{{findme.label}}}</h3>
+                <p>
+                    <a href="https://fr.linkedin.com/in/alex-le-bescond-4510314" class="btn btn-default" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/alexlebesc" class="btn btn-default" target="_blank"><i class="fa fa-github"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+            <div class="col-md-9 bg1 spacing-height full-height-reference">
+            </div>
+        </div>
+    {{/profile}}
+</section>

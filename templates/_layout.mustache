@@ -1,0 +1,70 @@
+{{> header }}
+
+    <div id="content-body" class="container">
+
+    <div class="row">
+        <div class="col-md-12 col-sm-12" itemscope itemtype="http://schema.org/Person">
+            <section class="intro row">
+                <div class="col-md-4">
+                    <div class="profile-pic">
+                        <div class="profile-border">
+                            <img src="/img/alex.png" alt="Alex Le Bescond"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h1><span class="color bold" itemprop="name">{{{title}}}</span></h1>
+                    <h2 itemprop="jobTitle">{{{subtitle}}}</h2>
+                    <p itemprop="description">{{{intro}}}</p>
+                </div>
+            </section>
+            <div class="timeline-wrap">
+                <div class="timeline-bg">
+                    <div class="row">
+                        <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+                        <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
+                        <div class="col-md-9 bg1 spacing-height full-height-reference">
+                        </div>
+                    </div>
+
+                    {{> section_profile }}
+
+                    {{> section_experience }}
+
+                    {{> section_portfolio }}
+
+                    {{> section_education }}
+
+                    {{> section_skills }}
+
+                    {{> section_interests }}
+
+                    <section class="timeline-section">
+                        <div class="row line-thankyou">
+                            <div class="col-md-1 hidden-sm hidden-xs bg1"></div>
+                            <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-point"></div>
+                            <div class="thankyou col-md-9 bg1">&nbsp;</div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="before-footer col-md-12 col-sm-12">
+        </div>
+    </div>
+    <footer>
+        {{#quote}}
+        <p class="quote">
+            {{content}}
+        </p>
+        <p class="author">
+            {{author}}
+        </p>
+        {{/quote}}
+    </footer>
+</div>
+
+{{> footer }}
+

@@ -1,0 +1,22 @@
+<!--INTERESTS-->
+<section class="timeline-section">
+    {{#interests}}
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+            <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-title"></div>
+            <div class="col-md-9 bg1 full-height-reference">
+                <h2>{{title}}</h2>
+            </div>
+        </div>
+        {{#list}}
+            <div class="row">
+                <div class="col-md-1 hidden-sm hidden-xs bg1 full-height"></div>
+                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point"></div>
+                <div class="col-md-9 bg1 full-height-reference">
+                    <h3>{{title}}</h3>
+                    <p>{{content}}</p>
+                </div>
+            </div>
+        {{/list}}
+    {{/interests}}
+</section>

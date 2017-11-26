@@ -1,3 +1,4 @@
 node_modules
-proto-bootstrap/public/
+./public
+./output
 .idea/
